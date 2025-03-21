@@ -1,6 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Network Solutions</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/navbar-top.css">
   <link rel="stylesheet" href="css/sticky-footer.css">
@@ -22,12 +27,18 @@ body {
     position: sticky;
     bottom: 0;
 }
+.welcome-image {
+        width: 100%;  
+        max-width: 500px;  
+        border-radius: 15px; 
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    }
 
   </style>
 </head>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-  <a class="navbar-brand" href="#"></a>
+  <a class="navbar-brand" href="#">Network Solutions</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -35,16 +46,16 @@ body {
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="services.html">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="about.html">About Us</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">FAQ</a>
+        <a class="nav-link" href="faq.html">FAQ</a>
       </li>
     </ul>
     <form class="form-inline mt-2 mt-md-0">
@@ -59,26 +70,27 @@ body {
 <body class="bg-secondary-subtle">
   <header class="py-5 bg-light border-bottom mb-4">
     <div class="container">
-        <div class="text-center my-5">
-            <h1 class="fw-bolder">Welcome to Blog Home!</h1>
-            <p class="lead mb-0">A Bootstrap 5 starter layout for your next blog homepage</p>
-        </div>
+      <div class="text-center"> 
+        <img src="images/networksolution.png" class="img-fluid rounded welcome-image mb-3" alt="Welcome Image">
+        <h1 class="fw-bolder">Welcome to Network Solutions!</h1>
+        <p class="lead mb-0">Your trusted partner for network security and IT solutions.</p>
+
+      </div>
     </div>
   </header>
 
   <main role="main" class="container">
     <div class="jumbotron">
-      <h1>Navbar example</h1>
-      <p class="lead">This example is a quick exercise to illustrate how the top-aligned navbar works. As you scroll,
-        this navbar remains in its original position and moves with the rest of the page.</p>
-      <a class="btn btn-lg btn-primary" href="{{ site.baseurl }}/docs/{{ site.docs_version }}/components/navbar/"
-        role="button">View navbar docs &raquo;</a>
+      <h1>Seamless IT Solutions</h1>
+      <p class="lead">Our team specializes in networking, cybersecurity, and VoIP solutions to keep your business running smoothly.</p>
+      <a class="btn btn-lg btn-primary" href="services.html" role="button">Explore Our Services &raquo;</a>
     </div>
   </main>
 </body>
 
 <footer class="footer bg-dark mt-auto py-3">
   <div class="container">
-    <span class="text-white-50">Place sticky footer content here.</span>
+    <span class="text-white-50">© 2025 Network Solutions. All rights reserved.</span>
   </div>
 </footer>
+</html>

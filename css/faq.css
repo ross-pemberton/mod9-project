@@ -25,6 +25,11 @@ body.faq {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    margin-bottom: 15px; /* Adds spacing between FAQ cards */
+}
+
+.card:hover {
+    transform: translateY(-5px);
 }
 
 .card img {
@@ -60,5 +65,9 @@ body.faq {
 
     .card p {
         font-size: 14px; 
+    }
+
+    .card {
+        padding: 20px; /* Slightly reduce padding for small screens */
     }
 }

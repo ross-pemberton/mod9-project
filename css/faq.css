@@ -27,10 +27,6 @@ body.faq {
     transition: transform 0.3s ease-in-out;
 }
 
-/* .card-header:hover {
-    transform: translateY(-5px);
-} */
-
 .card img {
     width: 100%;
     height: auto;

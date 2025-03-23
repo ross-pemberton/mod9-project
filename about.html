@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/navbar-top.css">
   <link rel="stylesheet" href="css/sticky-footer.css">
   <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body class="about">
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
@@ -22,6 +23,7 @@
       <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
       <li class="nav-item active"><a class="nav-link" href="about.html">About Us <span class="sr-only">(current)</span></a></li>
       <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+      <li class="nav-item"><a class="nav-link" href="discussion.html">Design Discussion</a></li>
     </ul>
   </div>
 </nav>
@@ -29,7 +31,7 @@
   <h1 class="text-center">About Us</h1>
   <p class="text-center">Network Solutions is dedicated to providing high-quality networking and cybersecurity services to businesses of all sizes. With over a decade of experience, we have become a trusted partner for companies looking to enhance their IT infrastructure.</p>
 
-  <div class="row mt-5">
+  <div class="row mt-4">
     <div class="col-md-6">
       <div class="card">
         <div class="card-body">
@@ -48,7 +50,7 @@
     </div>
   </div>
 
-  <div class="row mt-5">
+  <div class="row mt-4">
     <div class="col-md-12">
       <div class="card">
         <div class="card-body">
@@ -59,7 +61,7 @@
     </div>
   </div>
 
-  <div class="row mt-5">
+  <div class="row mt-4">
     <div class="col-md-12">
       <div class="card">
         <div class="card-body">
@@ -70,6 +72,33 @@
             <li class="list-group-item"><strong>Customer Focus:</strong> Our clients' success is our top priority.</li>
             <li class="list-group-item"><strong>Excellence:</strong> We strive for the highest standards in everything we do.</li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-12 d-flex justify-content-center"> <!-- Takes full width but centers -->
+      <div class="card p-2" style="max-width: 800px; width: 100%;"> <!-- Wider card -->
+        <div class="card-body text-center">
+          <h2 class="card-title mb-4">Contact Us</h2>
+          <p class="card-text"><strong>Phone:</strong> (123) 456-7890</p>
+          <p class="card-text"><strong>Email:</strong> 
+            <a href="mailto:contact@networksolutions.com">contact@networksolutions.com</a>
+          </p>
+          <form>
+            <div class="form-group">
+              <label for="email">Your Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Briefly describe your request:</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Type your message here" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Send Message</button>
+          </form>
         </div>
       </div>
     </div>
